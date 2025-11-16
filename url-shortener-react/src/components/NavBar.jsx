@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { IoIosMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="lg:px-14 sm:px-8 px-4 w-full flex justify-between">
         <Link to="/">
           <h1 className="font-bold text-3xl text-white italic sm:mt-0 mt-2">
-            Linklytics
+            URLShort
           </h1>
         </Link>
         <ul
